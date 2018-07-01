@@ -72,7 +72,21 @@ window.onload = () => {
           let total = val * amount;                         
           let newTotal = Math.round(total * 100) / 100;     
           displayResult.value = newTotal;
-          
+          function storeRate() { 
+            let open = indexedDB.open("currencyDB", 1);
+            // Creating the schema
+            open.onupgradeneeded = function() {
+              let db = open.result;
+              let store = db.createObjectStore("rateStore", {keyPath: "id"}); 
+              //adding data
+              store.put({id:  `${query}`, name: {'rate': `${val}`}});
+            }  
+            // Close the db when the transaction is done
+             tx.oncomplete = function() {
+              db.close();
+            };
+          };
+          storeRate();
           console.log(newTotal);                            
         } else{
         alert('Conversion failed Please connect to the internet for the first time.');
@@ -92,4 +106,5 @@ window.onload = () => {
         
   });
    
+  
 }

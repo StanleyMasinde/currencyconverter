@@ -12,3 +12,7 @@ body, html {
 .jumbotron {
     background-color: rgba(10, 10,10, 0.1)
 }
+.formctrl {
+    font-size: 45px!important;
+    color: white!important;
+}
