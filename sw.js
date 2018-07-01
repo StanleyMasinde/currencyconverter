@@ -1,7 +1,9 @@
 const staticAssets = [
     './',
-    './css/style.css',
-    './js/index.js'
+    './css/custom.css',
+    './js/index.js',
+    './css/app.css',
+    '.images/bg.png'
 ]
 //install service worker, create cache and cache all the static files in there
 self.addEventListener('install', async event =>{
