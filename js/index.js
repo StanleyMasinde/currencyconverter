@@ -29,7 +29,7 @@ window.onload = () => {
     .then(function(myJson) {
       let currencies = myJson.results;     //Object containing currencyName, currencySymbol and id 
 
-      // looping through the currencies object for values
+      // looping through the json 
       for(const currency in currencies){
         const money = currencies[currency].currencyName;    //extracting the name of the currency     
         const moneyId = currencies[currency].id;    //extracting the name of the currency     
@@ -68,18 +68,20 @@ window.onload = () => {
           return response.json();
       }).then(rated => {
         let val = rated[query];
-        if(val){                                            //checking to see if the query was succesfle
-          let total = val * amount;                         // computing the total
-          let newTotal = Math.round(total * 100) / 100;     // round the converted amount to a whole number
+        if(val){                                            
+          let total = val * amount;                         
+          let newTotal = Math.round(total * 100) / 100;     
           displayResult.value = newTotal;
-          console.log(newTotal);                            //log the converted amount to the console
+          
+          console.log(newTotal);                            
         } else{
-          console.log('sommthing bad happened');
+        alert('Conversion failed Please connect to the internet for the first time.');
         }   
     })    
   }
+  
 
-  //attching conversion functionality to button     
+  //conversion button     
   conversionButton.addEventListener("click", (e) => {
     e.preventDefault();
     const convertFrom =from.options[from.selectedIndex].value;
