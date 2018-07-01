@@ -16,3 +16,6 @@ body, html {
     font-size: 45px!important;
     color: white!important;
 }
+.bgnd1 {
+    background-color: rgba(100, 100,100, 0.8);
+}

@@ -12,14 +12,16 @@
         <script type="text/javascript" src="js/index.js"></script>
     </head>
     <body>
-            <div class="bgnd">
-        <h3>Welcome to the Free online currency converter.</h3>
+    <div class="bgnd">
+        <div class="jumbotron">
+        <div class="container text-secondary bgnd1">
+        <h3 class="">Welcome to the Free online currency converter.</h3>
         <p>note that you need to be online atleast once in order to do the conversions 
             completely offfline the next time you use the App.
-        </p>
-        <form class="form-row" action="">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-5">
+        </p> </div>
+        <form class="form-row jumbotron" action="">
+            <div class="col-2"></div>
+            <div class="col--5">
             <input class="form-control form-control-sm" type="number" placeholder="AMOUNT" id="Amount">
             <select class="form-control-sm" name="" id="from">
                 <option value="from">Convert from</option>
@@ -30,6 +32,7 @@
                         
             <button class="btn btn-success btn-small" id="convert">convert </button>
             <input class="form-control-plaintext form-control-sm formctrl" type="number" value="" id="displayResult" readonly>
+        </div>
         </form>
 </div>
     </body>
