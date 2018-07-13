@@ -82,12 +82,11 @@ window.onload = () => {
               store.put({id:  `${query}`, name: {'rate': `${val}`}});
             }  
             // Close the db when the transaction is done
-             tx.oncomplete = function() {
+             IDBTransaction.oncomplete = function() {
               db.close();
             };
           };
-          storeRate();
-          console.log(newTotal);                            
+          storeRate();                           
         } else{
         alert('Conversion failed Please connect to the internet for the first time.');
         }   
@@ -96,7 +95,7 @@ window.onload = () => {
   
 
   //conversion button     
-  conversionButton.addEventListener("click", (e) => {
+  amount.addEventListener("input", (e) => {
     e.preventDefault();
     const convertFrom =from.options[from.selectedIndex].value;
     const convertTo =to.options[to.selectedIndex].value;

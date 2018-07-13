@@ -1,21 +1,64 @@
-body, html {
-    height :100%!important;
-
+body , html {
+  height: 100%;
 }
-.bgnd {
-    background-image: url("../images/bg.png")!important;
-    height:100%!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
+body {
+  background-image: url('/images/bg.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:raleway;
+  background-position: center;
+  padding: 0%;
 }
-.jumbotron {
-    background-color: rgba(10, 10,10, 0.1)
+.conversion-area {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 80%;
+  background-color: rgba(210, 210,210, 0.4);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 9px 9px black;
+  z-index: 10;
+  text-align: center;
 }
-.formctrl {
-    font-size: 45px!important;
-    color: white!important;
+.my-input {
+  width: 40%;
+  background-color: beige;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
 }
-.bgnd1 {
-    background-color: rgba(218, 255, 9,0.9);
+.my-input-amount {
+  font-family: Arial, Helvetica, sans-serif!important;
+  width: 10%;
+  padding: 7px;
+  border-radius: 5px;
+  width: 95%;
+  font-family: raleway;
+}
+.results-area {
+  position: absolute;
+  top: 70%;
+  font-size: 45px;
+  width: 70%;
+  height: 20%;
+  background-color: inherit;
+  border: none;
+  font-family: raleway;
+  color: beige;
+}
+.converter-header {
+  background-color: rgba(210, 210,210, 0.4);
+  box-shadow: 0px 10px 10px black;
+  padding: 5px;
+  width: 100%;
+  color: beige;
+  text-align: center;
+  text-shadow: 0px 9px black;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+h2 {
+  text-outline: 2px 2px aliceblue;
 }
