@@ -1,16 +1,16 @@
 const staticAssets = [
     '/',
-    './css/custom.css',
-    './js/index.js',
-    './images/bg.png',
-    './manifest.json'
+    '/css/custom.css',
+    '/js/index.js',
+    '/images/bg.png',
+    'manifest.json'
 ]
 //install service worker, create cache and cache all the static files in there
 self.addEventListener('install', async event =>{
     const cache = await caches.open('currency_converter_static');
         cache.addAll(staticAssets);
         self.skipWaiting();
-     console.log('All assets cached')
+     promt('your site id now available offline');
     });
      
     
