@@ -10,7 +10,7 @@ self.addEventListener('install', async event =>{
     const cache = await caches.open('currency_converter_static');
         cache.addAll(staticAssets);
         self.skipWaiting();
-     promt('your site id now available offline');
+     alert('your site id now available offline');
     });
      
     
