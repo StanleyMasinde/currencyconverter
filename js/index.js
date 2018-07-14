@@ -5,10 +5,10 @@ window.onload = () => {
    //checking to see if service worker exist in the clients browser
    if('serviceWorker' in navigator){
     try{
-      navigator.serviceWorker.register('./sw.js');
+      navigator.serviceWorker.register('/sw.js');
       console.log('sw registered successfully');
     }catch(error){
-      console.log('sw registration failed')
+      alert('sw registration failed')
     }
   }
 
