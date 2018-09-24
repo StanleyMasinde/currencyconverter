@@ -3,6 +3,7 @@ const staticAssets = [
     '/css/custom.css',
     '/js/index.js',
     '/images/bg.png',
+    '/images/bg.svg',
     'manifest.json'
 ]
 //install service worker, create cache and cache all the static files in there

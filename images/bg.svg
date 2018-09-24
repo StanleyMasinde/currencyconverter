@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bg.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4162">
+      <stop
+         style="stop-color:#00fdff;stop-opacity:1"
+         offset="0"
+         id="stop4164" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:0;"
+         offset="1"
+         id="stop4166" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4162"
+       id="linearGradient4168"
+       x1="165.11429"
+       y1="162.36223"
+       x2="689.17139"
+       y2="910.93365"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-2.8571429)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-47.857143"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient4168);fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3336"
+       width="742.85712"
+       height="1060"
+       x="2.8571427"
+       y="-1.9235092" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:3.6020124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176"
+       cx="501.97058"
+       cy="179.892"
+       rx="87.575798"
+       ry="169.89203"
+       transform="matrix(0.88756632,0.46067996,-0.47546412,0.87973511,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:3.6020124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176-3"
+       cx="482.81128"
+       cy="180.18167"
+       rx="87.575798"
+       ry="169.89203"
+       transform="matrix(0.88756632,0.46067996,-0.47546412,0.87973511,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:3.6020124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176-6"
+       cx="525.00238"
+       cy="180.82211"
+       rx="87.575798"
+       ry="169.89203"
+       transform="matrix(0.88756632,0.46067996,-0.47546412,0.87973511,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:3.6020124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176-5"
+       cx="28.739676"
+       cy="537.99786"
+       rx="87.575798"
+       ry="169.89203"
+       transform="matrix(0.71265351,-0.7015162,0.68949561,0.72428986,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:3.6020124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176-35"
+       cx="26.302794"
+       cy="537.92944"
+       rx="87.575798"
+       ry="169.89203"
+       transform="matrix(0.74049261,-0.6720645,0.6595823,0.75163235,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:3.6020124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176-62"
+       cx="17.943083"
+       cy="540.97119"
+       rx="87.575798"
+       ry="169.89203"
+       transform="matrix(0.75726059,-0.65311285,0.64035278,0.76808093,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#fafdfd;stroke-width:2.31480432;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98742137"
+       id="path4176-9"
+       cx="400.89493"
+       cy="-291.98257"
+       rx="36.023293"
+       ry="170.57358"
+       transform="matrix(0.19104498,0.98158128,-0.99999954,-9.5804807e-4,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:70.97725677px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-664.63922"
+       y="783.40314"
+       id="text4248-6"
+       sodipodi:linespacing="125%"
+       transform="matrix(-0.92292678,0.56993743,0.10744064,1.0171615,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4250-06"
+         x="-664.63922"
+         y="783.40314"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88.72156525px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff">stannlee.github.io</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="442.92142"
+       y="951.20154"
+       id="text4248-922"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4250-8"
+         x="442.92142"
+         y="951.20154"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff">stannlee.github.io</tspan></text>
+  </g>
+</svg>
