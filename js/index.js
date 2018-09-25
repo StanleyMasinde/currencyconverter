@@ -8,7 +8,7 @@ window.onload = () => {
       navigator.serviceWorker.register('sw.js');
       console.log('sw registered successfully');
     }catch(error){
-      alert('sw registration failed')
+      alert('/currencyconverter/sw registration failed')
     }
   }
 
