@@ -45,7 +45,7 @@ body {
   background-color: inherit;
   border: none;
   font-family: raleway;
-  color: black;
+  color: black!important;
 }
 .converter-header {
   background-color: rgba(210, 210,210, 0.4);
