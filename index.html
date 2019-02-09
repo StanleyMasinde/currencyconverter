@@ -1,32 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currency converter by- Stanley</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="Author" content="Stanley Masinde">
+        <meta name="description" content="A free currency converter app for your phone powered by free api">
+        <meta name="theme-color" content="#00ffff">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="theme-color" content="#2F3BA2"> 
-        <title>Online currency coverter</title>
+        <!--Link mainifes-->
         <link rel="manifest" href="manifest.json">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!--Raleway font-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <!--Custom stylesheet-->
         <link rel="stylesheet" href="custom.css">
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway"/>
-        <script type="text/javascript" src="js/index.js"></script>
-    </head>
+
+        <!--Main javascript file loaded in defered mode-->
+        <script src="main.js" defer></script>
+
     <body>
-        <div class="converter-header">
-            <h2>Currency Converter</h2>
+
+        <div id="center">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container">
+                        <form class="mt-5">
+                                <input type="number" class="form-control form-control-lg" id="value">
+                            <div class="form-group row">
+                                <label for="inputName" class=""></label>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label for="">From</label>
+                                        <select onchange="convertCurrency();" class="form-control" name="" id="from">
+                                            <option selected disabled>--</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label for="">To</label>
+                                        <select onchange="convertCurrency();"class="form-control" name="" id="to">
+                                            <option selected disabled>--</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="results-div">
+                <h1 id="results" class="h1 display-3">
+                    46.32
+                </h1>
+            </div>
         </div>
-        <form class="conversion-area">
-            <select class="my-input" name="" id="from">
-               <!-- <option value="from">Convert From</option>-->
-            </select> 
-        <b>=></b>
-            <select class="my-input" name="" id="to">
-               <!-- <option value="TO">Convert To</option>-->
-            </select>
-            <input class="my-input-amount" type="number" placeholder="Please enter the amount to convert" id="Amount">
-            <!--<button class="Convert-button" id="convert">Convert</button>-->
-        </form>    
-        <input class="results-area" type="number" value="" id="displayResult" readonly>
-</div>
+
+        <!-- Optional JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
     </body>
+
+</html>
+</head>
+
+<body>
+
+</body>
+
 </html>
