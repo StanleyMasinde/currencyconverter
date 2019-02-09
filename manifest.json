@@ -5,8 +5,8 @@
   "background_color": "#23a4a4",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/",
-  "start_url": "/",
+  "Scope": "/currencycoverter",
+  "start_url": "/currencyconverter",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
